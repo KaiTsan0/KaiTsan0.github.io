@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Game Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<script src="scripts.js"></script>  </body>
+
+	<nav class="navbar">
+	  <ul>
+		<li><a href="index.html">Back</a></li>
+		<li><a href="#BBC">Finite State Machine</a></li>
+		<li><a href="#PR">Perlin City Generation</a></li>
+		<li><a href="#KT">Puzzle Game</a></li>
+		<li><a href="#contact">Contact</a></li>
+	  </ul>
+	</nav>
+	
+	<div class="container">  <header class="header">
+    <section id="about" class="section"> <h2>Art Portfolio</h2> 
+    </section>
+
+    <section id="BBC" class="section">
+	  <h2>Brass Bolt Caverns Mining VR Game</h2>
+	  <p>During this project i was apart of a small team, and I was tasksed with specializing
+	  in the creation of the 3D environment, this included the whole hub area and all
+	  buildings and props that will be located in the hub area.</p>
+	  <br>
+	  <div class="image-thumbnails">
+		<img src="pPort/BBC/1.png" alt="BrassBolt & Catches Shop" class="thumbnail">
+		<img src="pPort/BBC/2.png" alt="Store Front Counter" class="thumbnail">
+		<img src="pPort/BBC/3.png" alt="Gem Silo Player Balance" class="thumbnail">
+		<img src="pPort/BBC/4.png" alt="Starting Equipdment + Controls" class="thumbnail">
+		<img src="pPort/BBC/5.png" alt="Upgrade Machine" class="thumbnail">
+		<img src="pPort/BBC/6.jpg" alt="Inside Shop Tent" class="thumbnail">
+	  </div>
+	  <br>
+	  <p>Designing the hub was an interesting challenge, as I needed to create an immersive
+	  environment for the player to achieve a sense of presence within the game, furthering
+	  the player experience, to create the sense of presence, an interactive and convincing
+	  environment was essential to achieving this goal.</p>
+	  <br>
+	  <br>
+	  <h3>Environmental Art</h3>
+	  <p>A recommendation was made by the team to add more life into the cave scene,
+	  as bland rock walls would take away from the immersive experience, I integrated
+	  plant life and geode crystals to add colour and vitality into the cavern.</p>
+	  <div class="image-thumbnails">
+		<img src="pPort/BBC/7.jpg" alt="Inside Cavern" class="thumbnail">
+		<img src="pPort/BBC/8.jpg" alt="Inside Cavern" class="thumbnail">
+	  </div>
+	  <br>
+	  <br>
+		<div class="videoplayer">
+		<video controls width="900" height="auto">
+		  <source src="pPort/FSM/timelapse.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		</video>
+	  </div>
+	  <br>
+	  <br>
+		<h3>Pheromone Trail Polipus AI</h3>
+		<p>While in the Seek Food state, the Polipus NPC leaves a trail of pheromone
+		GameObjects behind, which allows it to find its way back home after entering
+		the Return state. 
+		Each pheromone GameObject has a lifespan timer. Once in the Return state, 
+		the Polipus will turn towards the pheromone trail GameObject that has the longest
+		remaining lifespan.</p>
+		<div class="videoplayer">
+		<video controls width="900" height="auto">
+		  <source src="pPort/FSM/trail.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		</video>
+	</section>
+	
+	<section id="PR" class="section">
+	<h2>Area Diversity City Procedural Generation</h2>
+	<p>Here I created a procedural generation tool that utilizes Perlin noise
+		  algorithms combined with layering  techniques, to create area diversity allowing
+		  the user to have more control on parameters in different zones.</p>
+	  <br>
+	  <div class="image-thumbnails">
+		<img src="pPort/PCG/4.png" alt="Generated City" class="thumbnail">
+		<img src="pPort/PCG/6.png" alt="Generated City" class="thumbnail">
+		<img src="pPort/PCG/10.png" alt="Generated City" class="thumbnail">
+		<img src="pPort/PCG/12.png" alt="Generated City" class="thumbnail">
+	  </div>
+	  <br>
+	  <div class="videoplayer">
+		<video controls width="900" height="auto">
+		  <source src="pPort/PCG/timelapse.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		</video>
+		<br>
+		<br>
+		<h3>Layered Perlin noise algorithm</h3>
+		<p>Here was the main purpose of the project: to layer Perlin noise algorithms.
+		This was achievable with a nested if statement and the ability to change the parameters
+		of the threshold required for a building prefab to be instantiated in the two different
+		layers, the main green layer and the red second layer.
+		<br>
+		Doing it with nested if statements as the foundation of the code makes it easy to
+		expand to allow for more layers, as I would just need to add another nested if
+		statement to replace the desired layer, allowing for even more customisation available
+		to the user.</p>
+		<div class="image-thumbnails">
+			<img src="pPort/PCG/LA.png" alt="Layered Perlin Algorithm" class="thumbnail">
+		</div>
+		<br>
+		<br>
+		<h3>Raycast Check</h3>
+		<p>I ran into a challenge when wanting to instantiate buildings that were bigger than
+		1x1 grid tiles, as I’d want them to instantiate as a whole segment without clipping or
+		ensuring the neighbouring buildings are correctly instantiated. To tackle this issue,
+		I decided to go with a raycast, going through a 'for each'; each building instantiation
+		checks its south and west to see what kind of building type is next to it, and from
+		that information and a set of rules, it will determine what building type will be
+		spawned in its place.
+		<br>
+		Before, I had it raycasting all four faces from a top-down view, but that was redundant 
+		as the buildings on the north and east wouldn’t have spawned yet, so there was no 
+		reason to check them, changing it to two raycasts optimised resources.</p>
+		<div class="image-thumbnails">
+			<img src="pPort/PCG/RC.png" alt="Raycast Check" class="thumbnail">
+		</div>
+		
+	</section>
+	
+	<section id="KT" class="section">
+		<h2>Shroomoban</h2>
+		<p>Shroomoban is a 2D puzzle game inspired by Sokoban, a game where the objective
+		  is to push boxes into the correct slots, across a grid-like movement system.</p>
+		  <br>
+		  <div class="videoplayer">
+			<video controls width="900" height="auto">
+			  <source src="pPort/SH/GP.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video>
+			<br>
+			<br>
+		  
+		  <h3>Tackling movement and game mechanics</h3>
+		  <p>This was my first time attempting a tile-based movement, and to get it right I had
+		  to ensure two main mechanics. Firstly, I had to make sure the player character was
+		  limited to grid movement, and wasn't able to clip through blocks. With the second
+		  mechanic, the ability to push boxes, not only by themselves but also in a group,
+		  I had to make sure there were no bugs of boxes clipping into each other or the player
+		  clipping out of the bounds of the game.
+
+			<br>First, I wanted to use physics to move the player, but I found this unreliable 
+			and it would require too many limits fighting the physics engine, so instead I 
+			decided to transform the player's position precisely. This allowed me to do checks 
+			before the movement to check if there is an object in the player's way, or a block 
+			for the player to push. With this basic foundation, it allowed me to implement the 
+			same logic to the boxes that the player is supposed to move.
+		  </p>
+		<div class="image-thumbnails">
+			<img src="pPort/SH/copesnipt.png" alt="Movement Code Snip" class="thumbnail">
+		  </div>
+	</section>
+
+
+    <footer id="contact" class="footer">
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+  <p>Phone: Your Phone Number</p>
+  <p>Social Media:</p>
+  <ul>
+    <li>
+      <a href="https://www.linkedin.com/in/your-linkedin-profile/">
+        <img src="linkIcon.png" alt="LinkedIn Icon" class="social-icon">
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/your-github-username">
+        <img src="gitIcon.png" alt="GitHub Icon" class="social-icon">
+      </a>
+    </li>
+    <li>
+      <a href="https://your-itch-profile.itch.io/">
+        <img src="itchIcon.png" alt="Itch.io Icon" class="social-icon">
+      </a>
+    </li>
+  </ul>
+</footer>
+
+</html>

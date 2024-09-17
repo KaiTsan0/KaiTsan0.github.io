@@ -1,12 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Game Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This is a simple page hosted on GitHub Pages.</p>
-</body>
+	<script src="scripts.js"></script>  </body>
+
+	<nav class="navbar">
+	  <ul>
+		<li><a href="#about">About</a></li>
+		<li class="dropdown">
+		  <a href="javascript:void(0)" class="dropbtn">Portfolio</a>
+		  <div class="dropdown-content">
+			<a href="#programming-portfolio">Programming   
+	 Portfolio</a>
+			<a href="#art-portfolio">Art Portfolio</a>
+			<a href="#game-jam-portfolio">Game Jams</a>
+		  </div>
+		</li>
+		<li><a href="#cv">CV</a></li>
+		<li><a href="#contact">Contact</a></li>
+	  </ul>
+	</nav>
+	
+  <div class="container">  <header class="header">  <h1>Your Name</h1>
+      <p>Game Developer</p>
+    </header>
+
+    <section id="about" class="section"> <h2>About Me</h2>
+      <p>My name is [], and I am a soon-to-be game design graduate student.
+	  This page is to showcase my works and portfolio. 
+	  As of now, I am a generalist in most areas, still trying to find what to specialize in.
+	  From my programming portfolio covering AI, procedural generation to gameplay programming,
+	   I highlight my approach to each challenge I faced.
+	   I’m open to taking on challenges and learning new ways to tackle problems.
+	  The art portfolio demonstrates my skill set in modeling and texturing for both 3D and 2D.
+	  All the portfolio work throughout this page are assets created by me.
+	  I will be covering my concept art and sketches to the final product.</p>
+    </section>
+	
+	<!-- Programming portfolio -->
+	
+    <section id="programming-portfolio" class="section">
+	  <h2>Programming Portfolio</h2>
+	  <div class="project-cards">
+		<div class="project-card">
+		  <h3>Finite State Machine NPC AI</h3>
+		  <a href="programmingPortfolio.html#FSM">
+			<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+		  </a>
+		  <p>This project is my attempt at using finite state machines to allow NPCs to have
+		  different behavioural states to create a convincing free-thinking NPC,
+		  taking inspiration from Craig Reynolds's Boids programme to use basic
+		  rules to influence the NPCs' movement.</p>
+		</div>
+		
+		<div class="project-card">
+		  <h3>Area Diversity City Procedural Generation</h3>
+		  <a href="programmingPortfolio.html#PCG">
+			<img src="thumbT.jpg" alt="Project 2 Thumbnail">
+		  </a>
+		  <p>Here I created a procedural generation tool that utilizes Perlin noise
+		  algorithms combined with layering  techniques, to create area diversity allowing
+		  the user to have more control on parameters in different zones.</p>
+		</div>
+		
+		<div class="project-card">
+		  <h3>Shroomoban</h3>
+		  <a href="programmingPortfolio.html#SH">
+			<img src="thumbT.jpg" alt="Project 3 Thumbnail">
+		  </a>
+		  <p>Shroomoban is a 2D puzzle game inspired by Sokoban, a game where the objective
+		  is to push boxes into the correct slots, across a grid-like movement system.</p>
+		</div>
+	  </div>
+	</section>
+	
+	<!-- Art portfolio -->
+
+    <section id="art-portfolio" class="section">  
+		<h2>Art Portfolio</h2>
+		<div class="project-cards">
+			<div class="project-card">
+			  <h3>Brass Bolt Caverns Mining VR Game</h3>
+			  <a href="artPortfolio.html#FSM">
+				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+			  </a>
+			  <p>During this project i was apart of a small team, and I was tasksed with
+			  specializing in the creation of the 3D environment, this included the whole
+			  hub area and all buildings and props that will be located in the hub area.</p>
+			</div>
+		
+			<div class="project-card">
+			  <h3>Pirate Radio: Stealth Raves</h3>
+			  <a href="artPortfolio.html#FSM">
+				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+			  </a>
+			  <p>Working in a small team we created a 3D Stealth game, taking from and
+			  inspired by 90s London Rave Culture</p>
+			</div>
+		
+			<div class="project-card">
+			  <h3>Kitty Table Setup</h3>
+			  <a href="artPortfolio.html#FSM">
+				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+			  </a>
+			  <p>A valentines themed Game Jam, all the models and programming was created over
+			  a span of 3 days.</p>
+			</div>
+		</div>
+    </section>
+	
+	<!-- Game Jams -->
+
+    <section id="game-jam-portfolio" class="section">
+		<h2>Game Jam Portfolio</h2>
+		<div class="project-cards">
+			<div class="project-card">
+			  <h3>Underwater Cleanup</h3>
+			  <a href="gameJams.html#FSM">
+				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+			  </a>
+			  <p>Group Internal game jam entry for univeristy</p>
+			</div>
+		
+			<div class="project-card">
+			  <h3>Energy Overflow</h3>
+			  <a href="gameJams.html#FSM">
+				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+			  </a>
+			  <p>Short Speedrunning 2D platformer
+			  Submitted Game Jam for SpeedJam #4</p>
+			</div>
+		
+			<div class="project-card">
+			  <h3>Joe's Memearia</h3>
+			  <a href="gameJams.html#FSM">
+				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+			  </a>
+			  <p>A game jam entry for the global game jam</p>
+			</div>
+		</div>
+    </section>
+	
+	<!-- Contact -->
+	
+	<section id="cv" class="section">
+	  <h2>CV</h2>
+	  <p>Download my CV:</p>
+	  <a href="Kai_Tsan compCV.pdf" target="_blank" download>Download PDF</a>
+	</section>
+
+    <footer id="contact" class="footer">
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+  <p>Phone: Your Phone Number</p>
+  <p>Social Media:</p>
+  <ul>
+    <div class="externalLinks">
+      <a href="https://www.linkedin.com/in/your-linkedin-profile/">
+        <img src="linkIcon.png" alt="LinkedIn Icon" class="social-icon">
+      </a>
+    </d>
+    <li>
+      <a href="https://github.com/your-github-username">
+        <img src="gitIcon.png" alt="GitHub Icon" class="social-icon">
+      </a>
+    </li>
+    <li>
+      <a href="https://your-itch-profile.itch.io/">
+        <img src="itchIcon.png" alt="Itch.io Icon" class="social-icon">
+      </a>
+    </li>
+  </ul>
+</footer>
+
 </html>
