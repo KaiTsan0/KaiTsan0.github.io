@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Game Developer Portfolio</title>
+  <title>Kai Tsan - Game Developer Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
@@ -30,23 +30,62 @@
 	  </ul>
 	</nav>
 	
-  <div class="container">  <header class="header">  <h1>Your Name</h1>
+  <div class="container">  <header class="header">  <h1>Kai Tsan</h1>
       <p>Game Developer</p>
     </header>
 
     <section id="about" class="section"> <h2>About Me</h2>
-      <p>My name is [], and I am a soon-to-be game design graduate student.
-	  This page is to showcase my works and portfolio. 
-	  As of now, I am a generalist in most areas, still trying to find what to specialize in.
-	  From my programming portfolio covering AI, procedural generation to gameplay programming,
-	   I highlight my approach to each challenge I faced.
-	   I’m open to taking on challenges and learning new ways to tackle problems.
-	  The art portfolio demonstrates my skill set in modeling and texturing for both 3D and 2D.
-	  All the portfolio work throughout this page are assets created by me.
-	  I will be covering my concept art and sketches to the final product.</p>
+      <p>As a recent graduate in Game Design and Development at the University of Greenwich, I'm passionate about crafting
+	  immersive and engaging game experiences. This portfolio showcases my diverse skillset,
+	  from AI and procedural generation to gameplay programming and 3D/2D art.
 	  <br>
+	  <br>throughout my academic journey, I've honed my ability to tackle complex
+	  challenges head-on. Each project highlights my unique approach to problem-solving
+	  and my dedication to creating innovative game mechanics.
 	  <br>
-	  <h3>Exp INSTER HERE</h3>
+	  <br>I'm eager to collaborate on projects that push the boundaries of game design.
+	  My portfolio demonstrates my proficiency in modeling, texturing, and concept art,
+	  showcasing the entire creative process from initial ideas to final products.
+	  </p>
+	  <h3>Skill set</h3>
+		<ul class="skills-icon">
+		  <li>
+			<a href="#">
+			  <img src="unityIcon.png" alt="Unity Icon" class="skills-icon">
+			  <span class="skill-text">Unity</span>
+			</a>
+		  </li>
+		  <li>
+			<a href="#">
+			  <img src="unIcon.png" alt="Unreal Engine Icon" class="skills-icon">
+			  <span class="skill-text">Unreal Engine 5</span>
+			</a>
+		  </li>
+		  <li>
+			<a href="#">
+			  <img src="blenderIcon.png" alt="Blender Icon" class="skills-icon">
+			  <span class="skill-text">Blender</span>
+			</a>
+		  </li>
+		  <li>
+			<a href="#">
+			  <img src="githubIcon.png" alt="GitHub Icon" class="skills-icon">
+			  <span class="skill-text">GitHub</span>
+			</a>
+		  </li>
+		  <li>
+			<a href="#">
+			  <img src="azureIcon.png" alt="Azure Icon" class="skills-icon">
+			  <span class="skill-text">Azure DevOps</span>
+			</a>
+		  </li>
+		  <li>
+			<a href="#">
+			  <img src="krakenIcon.png" alt="Kraken Icon" class="skills-icon">
+			  <span class="skill-text">Git Kraken</span>
+			</a>
+		  </li>
+		</ul>
     </section>
 	
 	<!-- Programming portfolio -->
@@ -59,8 +98,8 @@
 		  <a href="programmingPortfolio.html#FSM">
 			<img src="pPort/THUMB/poliT.jpg" alt="Project 1 Thumbnail">
 		  </a>
-		  <p>This project is my attempt at using finite state machines to allow NPCs to have
-		  different behavioural states to create a convincing free-thinking NPC,
+		  <p>This project is my attempt at using <u>finite state machines</u> to allow NPCs to have
+		  different behavioural states to create a <u>convincing free-thinking NPC</u>,
 		  taking inspiration from Craig Reynolds's Boids programme to use basic
 		  rules to influence the NPCs' movement.</p>
 		</div>
@@ -68,20 +107,22 @@
 		<div class="project-card">
 		  <h3>Area Diversity City Procedural Generation</h3>
 		  <a href="programmingPortfolio.html#PCG">
-			<img src="thumbT.jpg" alt="Project 2 Thumbnail">
+			<img src="pPort/THUMB/cityT.jpg" alt="Project 2 Thumbnail">
 		  </a>
-		  <p>Here I created a procedural generation tool that utilizes Perlin noise
-		  algorithms combined with layering  techniques, to create area diversity allowing
+		  <p>Here I created a <u>procedural</u> generation tool that utilizes <u>Perlin noise
+		  algorithms</u> combined with layering  techniques, to create area diversity allowing
 		  the user to have more control on parameters in different zones.</p>
 		</div>
 		
 		<div class="project-card">
 		  <h3>Shroomoban</h3>
 		  <a href="programmingPortfolio.html#SH">
-			<img src="thumbT.jpg" alt="Project 3 Thumbnail">
+			<img src="pPort/THUMB/shroomT.jpg" alt="Project 3 Thumbnail">
 		  </a>
-		  <p>Shroomoban is a 2D puzzle game inspired by Sokoban, a game where the objective
-		  is to push boxes into the correct slots, across a grid-like movement system.</p>
+		  <p>Shroomoban is a 2D puzzle game inspired by Sokoban. This game challenges
+		  players to strategically push boxes into designated slots across a grid-like system.
+		  Demonstrating my knowledge in <u>gameplay programming</u>, I've designed Shroomoban
+		  to offer a captivating and engaging puzzle experience.</p>
 		</div>
 	  </div>
 	</section>
@@ -94,29 +135,36 @@
 			<div class="project-card">
 			  <h3>Brass Bolt Caverns Mining VR Game</h3>
 			  <a href="artPortfolio.html#BBC">
-				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+				<img src="pPort/THUMB/vrT.jpg" alt="Project 1 Thumbnail">
 			  </a>
-			  <p>During this project i was apart of a small team, and I was tasksed with
-			  specializing in the creation of the 3D environment, this included the whole
-			  hub area and all buildings and props that will be located in the hub area.</p>
+			  <p>As a member of a small development team, I was responsible for crafting
+			  the entire <u>3D environment</u> for the project. This included designing and
+			  implementing the hub area, as well as all buildings and props within it.
+			  I incorporated <u>affordances</u> into the design process to ensure intuitive player
+			  interaction.
+			  </p>
 			</div>
 		
 			<div class="project-card">
 			  <h3>Pirate Radio: Stealth Raves</h3>
 			  <a href="artPortfolio.html#PR">
-				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+				<img src="pPort/THUMB/prT.jpg" alt="Project 1 Thumbnail">
 			  </a>
-			  <p>Working in a small team we created a 3D Stealth game, taking from and
-			  inspired by 90s London Rave Culture</p>
+			  <p>As part of a small team, I contributed to the development of a 3D stealth
+			  game inspired by the vibrant 90s London rave culture. My role focused on creating
+			  immersive and authentic environments that captured the atmosphere of
+			  this era.
+			  </p>
 			</div>
 		
 			<div class="project-card">
 			  <h3>Kitty Table Setup</h3>
 			  <a href="artPortfolio.html#KT">
-				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+				<img src="pPort/THUMB/ktT.jpg" alt="Project 1 Thumbnail">
 			  </a>
-			  <p>A valentines themed Game Jam, all the models and programming was created over
-			  a span of 3 days.</p>
+			  <p>Demonstrated skills in game development during a Valentine's
+			  Day-themed Game Jam. Within a tight 3-day deadline, I successfully created
+			  all models and programmed the game's mechanics.</p>
 			</div>
 		</div>
     </section>
@@ -129,7 +177,7 @@
 			<div class="project-card">
 			  <h3>Underwater Cleanup</h3>
 			  <a href="gameJams.html#UC">
-				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+				<img src="pPort/THUMB/ucT.jpg" alt="Project 1 Thumbnail">
 			  </a>
 			  <p>Group Internal game jam entry for univeristy</p>
 			</div>
@@ -137,7 +185,7 @@
 			<div class="project-card">
 			  <h3>Energy Overflow</h3>
 			  <a href="gameJams.html#NR">
-				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+				<img src="pPort/THUMB/nrT.jpg" alt="Project 1 Thumbnail">
 			  </a>
 			  <p>Short Speedrunning 2D platformer
 			  Submitted Game Jam for SpeedJam #4</p>
@@ -146,7 +194,7 @@
 			<div class="project-card">
 			  <h3>Joe's Memearia</h3>
 			  <a href="gameJams.html#JM">
-				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+				<img src="pPort/THUMB/jmT.jpg" alt="Project 1 Thumbnail">
 			  </a>
 			  <p>A game jam entry for the global game jam</p>
 			</div>

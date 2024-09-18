@@ -53,16 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  const fsmSection = document.getElementById('FSM');
-  if (fsmSection) {
-    fsmSection.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
-  }
-});
-
-document.addEventListener('DOMContentLoaded', () => {
   const imageThumbnails = document.querySelectorAll('.image-thumbnails img');
   const enlargedImageContainer = document.createElement('div');
   const enlargedImage = document.createElement('img');

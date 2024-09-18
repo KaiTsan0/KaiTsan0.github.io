@@ -270,3 +270,31 @@ li.dropdown {
   display: inline-block; /* Display links inline for horizontal layout */
   margin-left: 10px; /* Add spacing between links */
 }
+
+.skills-icon {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  list-style: none;
+}
+
+.skills-icon li {
+  margin: 10px; /* Spacing between items */
+  background-color: #202020;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 5px;
+}
+
+.skills-icon img {
+  margin-bottom: 5px;
+  Remove cursor: pointer;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.skill-text {
+  font-size: 0.8rem; /* Adjust font size as needed */
+}
