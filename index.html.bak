@@ -90,7 +90,7 @@
 		<div class="project-cards">
 			<div class="project-card">
 			  <h3>Brass Bolt Caverns Mining VR Game</h3>
-			  <a href="artPortfolio.html#FSM">
+			  <a href="artPortfolio.html#BBC">
 				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
 			  </a>
 			  <p>During this project i was apart of a small team, and I was tasksed with
@@ -100,7 +100,7 @@
 		
 			<div class="project-card">
 			  <h3>Pirate Radio: Stealth Raves</h3>
-			  <a href="artPortfolio.html#FSM">
+			  <a href="artPortfolio.html#PR">
 				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
 			  </a>
 			  <p>Working in a small team we created a 3D Stealth game, taking from and
@@ -109,7 +109,7 @@
 		
 			<div class="project-card">
 			  <h3>Kitty Table Setup</h3>
-			  <a href="artPortfolio.html#FSM">
+			  <a href="artPortfolio.html#KT">
 				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
 			  </a>
 			  <p>A valentines themed Game Jam, all the models and programming was created over
@@ -125,7 +125,7 @@
 		<div class="project-cards">
 			<div class="project-card">
 			  <h3>Underwater Cleanup</h3>
-			  <a href="gameJams.html#FSM">
+			  <a href="gameJams.html#UC">
 				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
 			  </a>
 			  <p>Group Internal game jam entry for univeristy</p>
@@ -133,7 +133,7 @@
 		
 			<div class="project-card">
 			  <h3>Energy Overflow</h3>
-			  <a href="gameJams.html#FSM">
+			  <a href="gameJams.html#NR">
 				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
 			  </a>
 			  <p>Short Speedrunning 2D platformer
@@ -142,7 +142,7 @@
 		
 			<div class="project-card">
 			  <h3>Joe's Memearia</h3>
-			  <a href="gameJams.html#FSM">
+			  <a href="gameJams.html#JM">
 				<img src="thumbT.jpg" alt="Project 1 Thumbnail">
 			  </a>
 			  <p>A game jam entry for the global game jam</p>
@@ -158,28 +158,27 @@
 	  <a href="Kai_Tsan compCV.pdf" target="_blank" download>Download PDF</a>
 	</section>
 
-    <footer id="contact" class="footer">
+<footer id="contact" class="footer">
   <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-  <p>Phone: Your Phone Number</p>
-  <p>Social Media:</p>
-  <ul>
-    <div class="externalLinks">
-      <a href="https://www.linkedin.com/in/your-linkedin-profile/">
-        <img src="linkIcon.png" alt="LinkedIn Icon" class="social-icon">
-      </a>
-    </d>
-    <li>
-      <a href="https://github.com/your-github-username">
-        <img src="gitIcon.png" alt="GitHub Icon" class="social-icon">
-      </a>
-    </li>
-    <li>
-      <a href="https://your-itch-profile.itch.io/">
-        <img src="itchIcon.png" alt="Itch.io Icon" class="social-icon">
-      </a>
-    </li>
-  </ul>
+  <div class="footer-content">
+    <p>Email: your@email.com</p>
+    <p>Phone: Your Phone Number</p>
+    <ul class="social-links">
+      <li> <a href="https://www.linkedin.com/in/kai-tsan-64444b272/" target="_blank">
+          <img src="linkIcon.png" alt="LinkedIn Icon" class="social-icon">
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/KaiTsan0" target="_blank">
+          <img src="gitIcon.png" alt="GitHub Icon" class="social-icon">
+        </a>
+      </li>
+      <li>
+        <a href="https://your-itch-profile.itch.io/" target="_blank">
+          <img src="itchIcon.png" alt="Itch.io Icon" class="social-icon">
+        </a>
+      </li>
+    </ul>
+  </div>
 </footer>
-
 </html>

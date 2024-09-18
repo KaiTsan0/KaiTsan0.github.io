@@ -16,166 +16,64 @@
 	<nav class="navbar">
 	  <ul>
 		<li><a href="index.html">Back</a></li>
-		<li><a href="#FSM">Finite State Machine</a></li>
-		<li><a href="#PCG">Perlin City Generation</a></li>
-		<li><a href="#SH">Puzzle Game</a></li>
+		<li><a href="#UC">Internal Game Jam</a></li>
+		<li><a href="#NR">SpeedJam #4</a></li>
+		<li><a href="#JM">Global Game Jam 2024</a></li>
 		<li><a href="#contact">Contact</a></li>
 	  </ul>
 	</nav>
 	
 	<div class="container">  <header class="header">
-    <section id="about" class="section"> <h2>Programming Portfolio</h2> 
+    <section id="about" class="section"> <h2>Game Jams</h2> 
     </section>
 
-    <section id="FSM" class="section">
-	  <h2>Finite State Machine NPC AI</h2>
-	  <p>This project is my attempt at using finite state machines to allow NPCs to
-	  have different behavioural states to create a convincing free-thinking NPC, taking
-	  inspiration from Craig Reynolds's Boids programme to use basic rules to influence the
-	  NPCs' movement.</p>
-	  <br>
+    <section id="UC" class="section">
+	  <h2>Underwater Cleanup</h2>
+	  <p></p>
 	  <div class="image-thumbnails">
-		<img src="pPort/FSM/polipus.png" alt="Polypus Image" class="thumbnail">
-		<img src="pPort/FSM/state.jpg" alt="Finite State Planning" class="thumbnail">
-		<img src="pPort/FSM/code.jpg" alt="Code Handling States" class="thumbnail">
-		<img src="pPort/FSM/polipusicons.png" alt="Polypus Image" class="thumbnail">
-		<img src="pPort/FSM/Concept.png" alt="Concept Art" class="thumbnail">
+		<img src="pPort/GJams/catfish.png" alt="Catfish Concept Art" class="thumbnail">
+		<img src="pPort/GJams/3dcat.jpg" alt="3D Render" class="thumbnail">
+		<img src="pPort/GJams/UWSnip.jpg" alt="3D Background" class="thumbnail">
 	  </div>
 	  <br>
-	  <h3>Polipus States</h3>
-	  <p>Active State - The polipus walks forward, and turning force is randomly 
-	  applied to the Polipus making it slowly turn in random directions while walking forward, 
-	  this is to simulate wandering. While the Polipus is walking around they leave behind a 
-	  trail of empty game objects, they will use this breadcrumb trail to find their way back 
-	  to the colony.<br>
-	  Seeking Food State - Taken inspiration from the cohesion rule presented by Reynold,
-	  the Polipus has two radius raycast vision split down the centre, if a Food object
-	  is spotted on the left or right the Polipus will start turning toward the
-	  direction the food is hit on. And will leave the state if the food is out of sight,
-	  switching back to the Active State or if the Polipus has collected the food, switching
-	  to the Return State.<br> Return State - If the Polipus' energy meter is below 25 or
-	  has collected food, it will begin to return back to the designated Colony by
-	  following the trail they left during the Active State. Once reaching the Colony
-	  it will deposit its food if it has collected any into the Colony Resource and
-	  replenish its energy to max if below half, then finally switching to the Home State.
-	  <br>Home State - while in the Colony trigger, the Polipus will wait a short amount of
-	  time idle inside the Colony, if there is another Polipus and the stored Food resource
-	  is three to one Polipus', another Polipus will be spawned into the scene, then the
-	  Polipus will resume to the Active State, repeating the cycle.<br> Inactive State - when a
-	  Polipus fails to replenish its energy resulting in its energy meter going below 0, the
-	  polipus will enter the inactive state, where no motion is taken and after 15 seconds
-	  they will get destroyed and leave behind a food object in their place.</p>
-	  <br>
-	  <br>
-	  <h3>Timelaspe of Polipus AI</h3>
-	  <p> Here, you can observe the various behaviours in action: the Polipus roam in search of food,
-		bring it back to the colony, and replenish their energy. When there is an excess of food,
-		they breed, resulting in an additional Polipus.</p>
+	  <h3>Gameplay Video</h3>
+	  <h3 class="header-link">
+		  <a href="https://megacomet.itch.io/underwater-cleanup" target="_blank">Underwater Cleanup Link</a>
+		</h3>
 		<div class="videoplayer">
 		<video controls width="900" height="auto">
-		  <source src="pPort/FSM/timelapse.mp4" type="video/mp4">
+		  <source src="pPort/GJams/UC.mp4" type="video/mp4">
 		  Your browser does not support the video tag.
 		</video>
 	  </div>
-	  <br>
-	  <br>
-		<h3>Pheromone Trail Polipus AI</h3>
-		<p>While in the Seek Food state, the Polipus NPC leaves a trail of pheromone
-		GameObjects behind, which allows it to find its way back home after entering
-		the Return state. 
-		Each pheromone GameObject has a lifespan timer. Once in the Return state, 
-		the Polipus will turn towards the pheromone trail GameObject that has the longest
-		remaining lifespan.</p>
-		<div class="videoplayer">
-		<video controls width="900" height="auto">
-		  <source src="pPort/FSM/trail.mp4" type="video/mp4">
-		  Your browser does not support the video tag.
-		</video>
 	</section>
 	
-	<section id="PCG" class="section">
-	<h2>Area Diversity City Procedural Generation</h2>
-	<p>Here I created a procedural generation tool that utilizes Perlin noise
-		  algorithms combined with layering  techniques, to create area diversity allowing
-		  the user to have more control on parameters in different zones.</p>
-	  <br>
-	  <div class="image-thumbnails">
-		<img src="pPort/PCG/4.png" alt="Generated City" class="thumbnail">
-		<img src="pPort/PCG/6.png" alt="Generated City" class="thumbnail">
-		<img src="pPort/PCG/10.png" alt="Generated City" class="thumbnail">
-		<img src="pPort/PCG/12.png" alt="Generated City" class="thumbnail">
-	  </div>
-	  <br>
+	<section id="NR" class="section">
+	<h2>Energy Overflow</h2>
+	<p>Short Speedrunning 2D platformer
+	<br>Submitted Game Jam for SpeedJam #4</p>
+	<h3 class="header-link">
+		  <a href="https://ezoak.itch.io/energy-overflow" target="_blank">Energy Overflow Link</a>
+		</h3>
 	  <div class="videoplayer">
 		<video controls width="900" height="auto">
-		  <source src="pPort/PCG/timelapse.mp4" type="video/mp4">
+		  <source src="pPort/GJams/NR.mp4" type="video/mp4">
 		  Your browser does not support the video tag.
 		</video>
-		<br>
-		<br>
-		<h3>Layered Perlin noise algorithm</h3>
-		<p>Here was the main purpose of the project: to layer Perlin noise algorithms.
-		This was achievable with a nested if statement and the ability to change the parameters
-		of the threshold required for a building prefab to be instantiated in the two different
-		layers, the main green layer and the red second layer.
-		<br>
-		Doing it with nested if statements as the foundation of the code makes it easy to
-		expand to allow for more layers, as I would just need to add another nested if
-		statement to replace the desired layer, allowing for even more customisation available
-		to the user.</p>
-		<div class="image-thumbnails">
-			<img src="pPort/PCG/LA.png" alt="Layered Perlin Algorithm" class="thumbnail">
-		</div>
-		<br>
-		<br>
-		<h3>Raycast Check</h3>
-		<p>I ran into a challenge when wanting to instantiate buildings that were bigger than
-		1x1 grid tiles, as I’d want them to instantiate as a whole segment without clipping or
-		ensuring the neighbouring buildings are correctly instantiated. To tackle this issue,
-		I decided to go with a raycast, going through a 'for each'; each building instantiation
-		checks its south and west to see what kind of building type is next to it, and from
-		that information and a set of rules, it will determine what building type will be
-		spawned in its place.
-		<br>
-		Before, I had it raycasting all four faces from a top-down view, but that was redundant 
-		as the buildings on the north and east wouldn’t have spawned yet, so there was no 
-		reason to check them, changing it to two raycasts optimised resources.</p>
-		<div class="image-thumbnails">
-			<img src="pPort/PCG/RC.png" alt="Raycast Check" class="thumbnail">
-		</div>
-		
 	</section>
 	
-	<section id="SH" class="section">
-		<h2>Shroomoban</h2>
-		<p>Shroomoban is a 2D puzzle game inspired by Sokoban, a game where the objective
-		  is to push boxes into the correct slots, across a grid-like movement system.</p>
+	<section id="JM" class="section">
+		<h2>Joe’s Memearia</h2>
+		<p>A game jam entry for the global game jam</p>
+		<h3 class="header-link">
+		  <a href="https://globalgamejam.org/games/2024/joes-memearia-0" target="_blank">Global Game Jam Link</a>
+		</h3>
 		  <br>
 		  <div class="videoplayer">
 			<video controls width="900" height="auto">
-			  <source src="pPort/SH/GP.mp4" type="video/mp4">
+			  <source src="pPort/GJams/JM.mp4" type="video/mp4">
 			  Your browser does not support the video tag.
 			</video>
-			<br>
-			<br>
-		  
-		  <h3>Tackling movement and game mechanics</h3>
-		  <p>This was my first time attempting a tile-based movement, and to get it right I had
-		  to ensure two main mechanics. Firstly, I had to make sure the player character was
-		  limited to grid movement, and wasn't able to clip through blocks. With the second
-		  mechanic, the ability to push boxes, not only by themselves but also in a group,
-		  I had to make sure there were no bugs of boxes clipping into each other or the player
-		  clipping out of the bounds of the game.
-
-			<br>First, I wanted to use physics to move the player, but I found this unreliable 
-			and it would require too many limits fighting the physics engine, so instead I 
-			decided to transform the player's position precisely. This allowed me to do checks 
-			before the movement to check if there is an object in the player's way, or a block 
-			for the player to push. With this basic foundation, it allowed me to implement the 
-			same logic to the boxes that the player is supposed to move.
-		  </p>
-		<div class="image-thumbnails">
-			<img src="pPort/SH/copesnipt.png" alt="Movement Code Snip" class="thumbnail">
 		  </div>
 	</section>
 

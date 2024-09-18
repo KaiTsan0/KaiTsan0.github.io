@@ -35,6 +35,11 @@ p {
 	line-height: 1.5;
 }
 
+.header-link a {
+  color: #fff; /* Link color */
+  text-decoration: underline; /* Add underline for visual indication */
+}
+
 .videoplayer {
   width: 100%; /* Make video responsive to section width */
   height: auto;
@@ -184,12 +189,12 @@ li.dropdown {
   display: flex;
   justify-content: center;
   width: auto; /* Adjust width as needed */
+  flex-wrap: wrap;
 }
 
 .image-thumbnails img {
   width: 200px;
   height: auto;
-  flex-wrap: wrap;
   cursor: pointer;
   margin: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -236,4 +241,32 @@ li.dropdown {
   cursor: pointer;
   font-size: 24px; /* Adjust font size as needed */
   color: white;
+}
+
+.footer {
+  text-align: center; /* Center content horizontally */
+  padding: 20px; /* Add spacing within the footer */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Align items vertically in the center */
+  width: 100%; /* Ensure full width within the footer */
+  gap: 200px; /* Adjust gap between text and icons */
+}
+
+.footer-content p { /* Style text information */
+  margin: 0; /* Remove default margin for better spacing */
+}
+
+.social-links { /* Style the list of social links */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  list-style: none; /* Remove bullet points */
+}
+
+.social-links li { /* Style individual link items */
+  display: inline-block; /* Display links inline for horizontal layout */
+  margin-left: 10px; /* Add spacing between links */
 }

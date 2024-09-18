@@ -16,9 +16,9 @@
 	<nav class="navbar">
 	  <ul>
 		<li><a href="index.html">Back</a></li>
-		<li><a href="#BBC">Finite State Machine</a></li>
-		<li><a href="#PR">Perlin City Generation</a></li>
-		<li><a href="#KT">Puzzle Game</a></li>
+		<li><a href="#BBC">VR Game</a></li>
+		<li><a href="#PR">Stealth Game</a></li>
+		<li><a href="#KT">Kitty Table Setup</a></li>
 		<li><a href="#contact">Contact</a></li>
 	  </ul>
 	</nav>
@@ -66,103 +66,136 @@
 	  </div>
 	  <br>
 	  <br>
-		<h3>Pheromone Trail Polipus AI</h3>
-		<p>While in the Seek Food state, the Polipus NPC leaves a trail of pheromone
-		GameObjects behind, which allows it to find its way back home after entering
-		the Return state. 
-		Each pheromone GameObject has a lifespan timer. Once in the Return state, 
-		the Polipus will turn towards the pheromone trail GameObject that has the longest
-		remaining lifespan.</p>
-		<div class="videoplayer">
-		<video controls width="900" height="auto">
-		  <source src="pPort/FSM/trail.mp4" type="video/mp4">
-		  Your browser does not support the video tag.
-		</video>
+	  <h3>Concept Art & Development Screenshots</h3>
+	  <div class="image-thumbnails">
+		<img src="pPort/BBC/Layout.png" alt="POI Layout Concept" class="thumbnail">
+		<img src="pPort/BBC/10.jpg" alt="Store Front Concept" class="thumbnail">
+		<img src="pPort/BBC/13.png" alt="Upwards View Outside Cavern" class="thumbnail">
+		<img src="pPort/BBC/Encampment.png" alt="Concept of Hub Area" class="thumbnail">
+		<img src="pPort/BBC/12.jpg" alt="Block Out of Hub" class="thumbnail">
+		<img src="pPort/BBC/11.jpg" alt="Gradient Texturing" class="thumbnail">
+		<img src="pPort/BBC/9.jpg" alt="How the waterfall works" class="thumbnail">
+		<img src="pPort/BBC/MoodBoard.png" alt="Mood Board" class="thumbnail">
+		<img src="pPort/BBC/MoodBoard2.png" alt="Mood Board" class="thumbnail">
+	  </div>
 	</section>
 	
 	<section id="PR" class="section">
-	<h2>Area Diversity City Procedural Generation</h2>
-	<p>Here I created a procedural generation tool that utilizes Perlin noise
-		  algorithms combined with layering  techniques, to create area diversity allowing
-		  the user to have more control on parameters in different zones.</p>
-	  <br>
-	  <div class="image-thumbnails">
-		<img src="pPort/PCG/4.png" alt="Generated City" class="thumbnail">
-		<img src="pPort/PCG/6.png" alt="Generated City" class="thumbnail">
-		<img src="pPort/PCG/10.png" alt="Generated City" class="thumbnail">
-		<img src="pPort/PCG/12.png" alt="Generated City" class="thumbnail">
-	  </div>
-	  <br>
-	  <div class="videoplayer">
-		<video controls width="900" height="auto">
-		  <source src="pPort/PCG/timelapse.mp4" type="video/mp4">
+	<h2>Pirate Radio: Stealth Raves</h2>
+	<p>Working in a small team we created a 3D Stealth game, taking from and
+			  inspired by 90s London Rave Culture</p>
+	  <h3 class="header-link">
+		  <a href="https://megacomet.itch.io/pirate-radio-stealth-waves" target="_blank">Itch.io Download</a>
+		</h3>
+		<p>Gameplay Video</p>
+	  <video controls width="900" height="auto">
+		  <source src="pPort/PR/game.mp4" type="video/mp4">
 		  Your browser does not support the video tag.
 		</video>
-		<br>
-		<br>
-		<h3>Layered Perlin noise algorithm</h3>
-		<p>Here was the main purpose of the project: to layer Perlin noise algorithms.
-		This was achievable with a nested if statement and the ability to change the parameters
-		of the threshold required for a building prefab to be instantiated in the two different
-		layers, the main green layer and the red second layer.
-		<br>
-		Doing it with nested if statements as the foundation of the code makes it easy to
-		expand to allow for more layers, as I would just need to add another nested if
-		statement to replace the desired layer, allowing for even more customisation available
-		to the user.</p>
-		<div class="image-thumbnails">
-			<img src="pPort/PCG/LA.png" alt="Layered Perlin Algorithm" class="thumbnail">
+	  
+	  <div class="image-thumbnails">
+			<img src="pPort/PR/LOD.png" alt="Generated City" class="thumbnail">
+			<img src="pPort/PR/LOD2.png" alt="Generated City" class="thumbnail">
 		</div>
-		<br>
-		<br>
-		<h3>Raycast Check</h3>
-		<p>I ran into a challenge when wanting to instantiate buildings that were bigger than
-		1x1 grid tiles, as I’d want them to instantiate as a whole segment without clipping or
-		ensuring the neighbouring buildings are correctly instantiated. To tackle this issue,
-		I decided to go with a raycast, going through a 'for each'; each building instantiation
-		checks its south and west to see what kind of building type is next to it, and from
-		that information and a set of rules, it will determine what building type will be
-		spawned in its place.
-		<br>
-		Before, I had it raycasting all four faces from a top-down view, but that was redundant 
-		as the buildings on the north and east wouldn’t have spawned yet, so there was no 
-		reason to check them, changing it to two raycasts optimised resources.</p>
-		<div class="image-thumbnails">
-			<img src="pPort/PCG/RC.png" alt="Raycast Check" class="thumbnail">
-		</div>
+		<p>Optimisations include, LOD for the trees, backface culling, occlusion culling and
+		being mindful of the poly count.
+		</p>
+	  <div class="videoplayer">
+		<video controls width="900" height="auto">
+		  <source src="pPort/PR/LOD.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		</video>
 		
+		<br>
+		<br>
+		
+		<h3>Design Considerations</h3>
+		<p>As the teams main 3d modeller and artist for our project Stealth Raves,
+		it is important that I could bring the ideas of my clients and teams’ ideas
+		to a visual level. This created a lot of design considerations that I had to
+		make, lots of feedback from the client and team have been provided to me and
+		I will discuss the direction I went and why. Our client has provided images
+		and references of the tower block and environment of the area from the time
+		frame we are trying to stay faithful to.
+		<br>
+		<br>
+		The design considerations for Stealth Raves were significantly influenced by
+		the vibrant and iconic 90s rave aesthetic, particularly in East London, my
+		aim was to capture the essence of this era. Main influences can be seen in my
+		design choices of graffiti-adorned walls (figure 1). The incorporation of elements
+		like distinctive street art, was a vital step in shaping the game’s visual style.</p>
+		<br>
+		
+		<h3>In-game & Real Life Inspiration Props Screenshots</h3>
+		<p>Some side by side screenshots of the real life inspiration
+		from Waltham Forest to the in-game models/props.
+		<br>
+		<br>
+		Below is a gallary containing some of the pictures I took while walking around Waltham
+		Forest, London to gather references, and also to be used as textures. For the
+		textures of majority of the buildings and props are real life pictures I took and
+		UV wrapped a low poly model I created around it.
+		</p>
+		<div class="image-thumbnails">
+			<img src="pPort/PR/park.png" alt="No Parking Garage - In game" class="thumbnail">
+			<img src="pPort/PR/park1.jpeg" alt="No Parking Garage - Real life" class="thumbnail">
+			<img src="pPort/PR/graf.png" alt="Graffiti Hut - In game" class="thumbnail">
+			<img src="pPort/PR/graf1.jpeg" alt="Graffiti Hut - Real life" class="thumbnail">
+			<img src="pPort/PR/bri.png" alt="The Dungeon - In game" class="thumbnail">
+			<img src="pPort/PR/bri1.jpeg" alt="The Dungeon - Real life" class="thumbnail">
+			<img src="pPort/PR/cons.png" alt="Construction Building - In game" class="thumbnail">
+			<img src="pPort/PR/cons1.jpeg" alt="Construction Building - Real life" class="thumbnail">
+			<img src="pPort/PR/crane.png" alt="Construction Area - In game" class="thumbnail">
+			<img src="pPort/PR/crane1.jpeg" alt="Construction Area - Real life" class="thumbnail">
+			<img src="pPort/PR/car.png" alt="Cargo Containers - In game" class="thumbnail">
+			<img src="pPort/PR/car1.jpeg" alt="Cargo Containers - Real life" class="thumbnail">
+			<img src="pPort/PR/lam.png" alt="Lammas Road Sign - reference to The Dungeons" class="thumbnail">
+			<img src="pPort/PR/lam1.jpeg" alt="Lammas Road Sign - Real life" class="thumbnail">
+			<img src="pPort/PR/bar.png" alt="Pub - In game" class="thumbnail">
+			<img src="pPort/PR/bar1.jpeg" alt="Pub - Real life" class="thumbnail">
+		</div>
 	</section>
 	
 	<section id="KT" class="section">
-		<h2>Shroomoban</h2>
-		<p>Shroomoban is a 2D puzzle game inspired by Sokoban, a game where the objective
-		  is to push boxes into the correct slots, across a grid-like movement system.</p>
-		  <br>
+		<h2>Kitty Table Setup</h2>
+		<p>A valentines themed Game Jam, all the models and programming was created over
+			  a span of 3 days.</p>
+		  
+			<br>
+		  <h3>Tackling movement and game mechanics</h3>
+		  <p>All the models and programming was done by me.
+		  <br>Using a custom shader node to create the scrolling tiling heart background.
+		  <br>Gradient texture mapping for the colouring of the models.
+		  <br>A combination of shapekeys and animation controllers were used for the animations.
+		  <br>As this was part of a game jam the UI was rushed during the end to get a
+		  finished playable game, other features that i would have like to added would be
+		  to create models for the individual items on the turntable, and to add animations
+		  for the cats at the table.
+		  </p>
 		  <div class="videoplayer">
 			<video controls width="900" height="auto">
-			  <source src="pPort/SH/GP.mp4" type="video/mp4">
+			  <source src="pPort/KT/game.mp4" type="video/mp4">
 			  Your browser does not support the video tag.
 			</video>
-			<br>
-			<br>
-		  
-		  <h3>Tackling movement and game mechanics</h3>
-		  <p>This was my first time attempting a tile-based movement, and to get it right I had
-		  to ensure two main mechanics. Firstly, I had to make sure the player character was
-		  limited to grid movement, and wasn't able to clip through blocks. With the second
-		  mechanic, the ability to push boxes, not only by themselves but also in a group,
-		  I had to make sure there were no bugs of boxes clipping into each other or the player
-		  clipping out of the bounds of the game.
-
-			<br>First, I wanted to use physics to move the player, but I found this unreliable 
-			and it would require too many limits fighting the physics engine, so instead I 
-			decided to transform the player's position precisely. This allowed me to do checks 
-			before the movement to check if there is an object in the player's way, or a block 
-			for the player to push. With this basic foundation, it allowed me to implement the 
-			same logic to the boxes that the player is supposed to move.
-		  </p>
+		  <br>
 		<div class="image-thumbnails">
-			<img src="pPort/SH/copesnipt.png" alt="Movement Code Snip" class="thumbnail">
+			<img src="pPort/KT/cattailImage.png" alt="Cat tail Render" class="thumbnail">
+			<img src="pPort/KT/creeperlImage.png" alt="Creeper Render" class="thumbnail">
+			<img src="pPort/KT/rosesImage.png" alt="Roses Render" class="thumbnail">
+			<img src="pPort/KT/fishImage.png" alt="Fish Render" class="thumbnail">
+			<img src="pPort/KT/breadImage.png" alt="Cat Bread Render" class="thumbnail">
+			<img src="pPort/KT/SardineImage.png" alt="Sardine Render" class="thumbnail">
+			<img src="pPort/KT/fullBody.png" alt="Full Body Render" class="thumbnail">
+			<img src="pPort/KT/icon.png" alt="Icon Render" class="thumbnail">
+			<img src="pPort/KT/GreenChairImage.png" alt="Green Chair Render" class="thumbnail">
+			<img src="pPort/KT/BeanBagImage.png" alt="Bean Bag Chair Render" class="thumbnail">
+			<img src="pPort/KT/HeartStoolImage.png" alt="Heart Stool Render" class="thumbnail">
+			<img src="pPort/KT/GreenClothImage.png" alt="Green Cloth Render" class="thumbnail">
+			<img src="pPort/KT/PinkClothImage.png" alt="Pink Cloth Render" class="thumbnail">
+			<img src="pPort/KT/WhiteClothImage.png" alt="White Cloth Render" class="thumbnail">
+			<img src="pPort/KT/HeartImage.png" alt="Heart Candle Render" class="thumbnail">
+			<img src="pPort/KT/GlassImage.png" alt="Glass Candle Render" class="thumbnail">
+			<img src="pPort/KT/GoldenImage.png" alt="Golden Candle Render" class="thumbnail">
 		  </div>
 	</section>
 
