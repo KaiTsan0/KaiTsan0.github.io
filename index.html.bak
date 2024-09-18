@@ -130,7 +130,7 @@
 		  <a href="programmingPortfolio.html#SP">
 			<img src="pPort/THUMB/shaderT.jpg" alt="Project 3 Thumbnail">
 		  </a>
-		  <p>Shader programming, both <u>node-based shader editing</u> and creating Signed Distance Fields using<u>HLSL and GLSL code</u></p>
+		  <p>Unreal Engine 5 Shader programming, both <u>node-based shader editing</u> and creating Signed Distance Fields using <u>HLSL and GLSL code</u></p>
 		</div>
 	  </div>
 	</section>

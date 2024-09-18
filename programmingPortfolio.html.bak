@@ -75,7 +75,7 @@
 		bring it back to the colony, and replenish their energy. When there is an excess of food,
 		they breed, resulting in an additional Polipus.</p>
 		<div class="videoplayer">
-		<video controls width="900" height="auto">
+		<video controls width="auto" height="auto">
 		  <source src="pPort/FSM/timelapse.mp4" type="video/mp4">
 		  Your browser does not support the video tag.
 		</video>
@@ -90,7 +90,7 @@
 		the Polipus will turn towards the pheromone trail GameObject that has the longest
 		remaining lifespan.</p>
 		<div class="videoplayer">
-		<video controls width="900" height="auto">
+		<video controls width="auto" height="auto">
 		  <source src="pPort/FSM/trail.mp4" type="video/mp4">
 		  Your browser does not support the video tag.
 		</video>
@@ -112,7 +112,7 @@
 	  </div>
 	  <br>
 	  <div class="videoplayer">
-		<video controls width="900" height="auto">
+		<video>
 		  <source src="pPort/PCG/timelapse.mp4" type="video/mp4">
 		  Your browser does not support the video tag.
 		</video>
@@ -159,7 +159,7 @@
 		  is to push boxes into the correct slots, across a grid-like movement system.</p>
 		  <br>
 		  <div class="videoplayer">
-			<video controls width="900" height="auto">
+			<video>
 			  <source src="pPort/SH/GP.mp4" type="video/mp4">
 			  Your browser does not support the video tag.
 			</video>
@@ -251,7 +251,7 @@
 			<br>If false !== 2 uv collum moving up and down with time sin
 		  </p>
 		  <div class="videoplayer">
-			<video controls width="900" height="auto">
+			<video>
 			  <source src="pPort/SP/circles.mp4" type="video/mp4">
 			  Your browser does not support the video tag.
 			</video>
