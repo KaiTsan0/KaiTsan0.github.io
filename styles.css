@@ -40,10 +40,9 @@ p {
   text-decoration: underline; /* Add underline for visual indication */
 }
 
-.videoplayer {
-  width: 100%; /* Make video responsive to section width */
-  height: auto;
-  margin: auto:
+.videoplayer video {
+  max-width: 100%; /* Ensure the video doesn't exceed the section width */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .navbar {

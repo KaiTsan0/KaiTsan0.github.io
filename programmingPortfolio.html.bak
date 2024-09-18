@@ -208,7 +208,7 @@
 		  <p>I utilised the opSmoothUnion function to merge two SDF spheres, creating a visually appealing blended shape.
 		  To introduce dynamic movement, I utilized a sine wave function to translate the green sphere towards the blue sphere over time</p>
 		  <div class="videoplayer">
-			<video controls width="900" height="auto">
+			<video>
 			  <source src="pPort/SP/sfdvideo.mp4" type="video/mp4">
 			  Your browser does not support the video tag.
 			</video>
@@ -227,7 +227,7 @@
 			<br>Heat distortion material set to Niagara fountain particle emitter
 		  </p>
 		  <div class="videoplayer">
-			<video controls width="900" height="auto">
+			<video>
 			  <source src="pPort/SP/heat.mp4" type="video/mp4">
 			  Your browser does not support the video tag.
 			</video>
@@ -257,9 +257,9 @@
 			</video>
 			</div>
 		<div class="image-thumbnails">
-			<img src="pPort/SP/circleGIF.gif" alt="Material Preview" class="thumbnail">
-			<img src="pPort/SP/circleGIF.gif" alt="Material Preview" class="thumbnail">
-			<img src="pPort/SP/circleGIF.gif" alt="Material Preview" class="thumbnail">
+			<img src="pPort/SP/circleGIF.gif" alt="UV Moving Circle Material" class="thumbnail">
+			<img src="pPort/SP/x.gif" alt="Material Preview" class="thumbnail">
+			<img src="pPort/SP/y.gif" alt="Material Preview" class="thumbnail">
 			<img src="pPort/SP/circleNode.jpg" alt="Shader Node" class="thumbnail">
 			<img src="pPort/SP/circleNode2.jpg" alt="Shader Node" class="thumbnail">
 		  </div>
