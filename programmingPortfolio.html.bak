@@ -16,9 +16,9 @@
 	<nav class="navbar">
 	  <ul>
 		<li><a href="index.html">Back</a></li>
-		<li><a href="#FSM">pProject1</a></li>
-		<li><a href="#PCG">pProject2</a></li>
-		<li><a href="#SH">pProject3</a></li>
+		<li><a href="#FSM">Finite State Machine</a></li>
+		<li><a href="#PCG">Perlin City Generation</a></li>
+		<li><a href="#SH">Puzzle Game</a></li>
 		<li><a href="#contact">Contact</a></li>
 	  </ul>
 	</nav>
@@ -100,10 +100,10 @@
 		  the user to have more control on parameters in different zones.</p>
 	  <br>
 	  <div class="image-thumbnails">
-		<img src="pPort/PCG/4.png" alt="Generated City" class="thumbnail">
-		<img src="pPort/PCG/6.png" alt="Generated City" class="thumbnail">
-		<img src="pPort/PCG/10.png" alt="Generated City" class="thumbnail">
-		<img src="pPort/PCG/12.png" alt="Generated City" class="thumbnail">
+		<img src="pPort/PCG/city1.png" alt="Generated City 1" class="thumbnail">
+		<img src="pPort/PCG/city4.png" alt="Generated City 2" class="thumbnail">
+		<img src="pPort/PCG/city10.png" alt="Generated City 3" class="thumbnail">
+		<img src="pPort/PCG/city12.png" alt="Generated City 4" class="thumbnail">
 	  </div>
 	  <br>
 	  <div class="videoplayer">
@@ -180,28 +180,27 @@
 	</section>
 
 
-    <footer id="contact" class="footer">
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-  <p>Phone: Your Phone Number</p>
-  <p>Social Media:</p>
-  <ul>
-    <li>
-      <a href="https://www.linkedin.com/in/your-linkedin-profile/">
-        <img src="linkIcon.png" alt="LinkedIn Icon" class="social-icon">
-      </a>
-    </li>
-    <li>
-      <a href="https://github.com/your-github-username">
-        <img src="gitIcon.png" alt="GitHub Icon" class="social-icon">
-      </a>
-    </li>
-    <li>
-      <a href="https://your-itch-profile.itch.io/">
-        <img src="itchIcon.png" alt="Itch.io Icon" class="social-icon">
-      </a>
-    </li>
-  </ul>
-</footer>
-
+	<footer id="contact" class="footer">
+	  <h2>Contact</h2>
+	  <div class="footer-content">
+		<p>Email: your@email.com</p>
+		<p>Phone: Your Phone Number</p>
+		<ul class="social-links">
+		  <li> <a href="https://www.linkedin.com/in/kai-tsan-64444b272/" target="_blank">
+			  <img src="linkIcon.png" alt="LinkedIn Icon" class="social-icon">
+			</a>
+		  </li>
+		  <li>
+			<a href="https://github.com/KaiTsan0" target="_blank">
+			  <img src="gitIcon.png" alt="GitHub Icon" class="social-icon">
+			</a>
+		  </li>
+		  <li>
+			<a href="https://ezoak.itch.io/" target="_blank">
+			  <img src="itchIcon.png" alt="Itch.io Icon" class="social-icon">
+			</a>
+		  </li>
+		</ul>
+	  </div>
+	</footer>
 </html>

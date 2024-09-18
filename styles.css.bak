@@ -11,7 +11,7 @@ body {
 }
 
 .section {
-    background-color: #252525; /* Darker shade for even sections */
+    background-color: #9F2B68; /* Darker shade for even sections */
     border-radius: 15px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     padding: 20px; /* Adjust the padding value as needed */
@@ -253,7 +253,7 @@ li.dropdown {
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Align items vertically in the center */
   width: 100%; /* Ensure full width within the footer */
-  gap: 200px; /* Adjust gap between text and icons */
+  gap: 40px; /* Adjust gap between text and icons */
 }
 
 .footer-content p { /* Style text information */

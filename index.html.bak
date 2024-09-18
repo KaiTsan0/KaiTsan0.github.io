@@ -44,6 +44,9 @@
 	  The art portfolio demonstrates my skill set in modeling and texturing for both 3D and 2D.
 	  All the portfolio work throughout this page are assets created by me.
 	  I will be covering my concept art and sketches to the final product.</p>
+	  <br>
+	  <br>
+	  <h3>Exp INSTER HERE</h3>
     </section>
 	
 	<!-- Programming portfolio -->
@@ -158,27 +161,26 @@
 	  <a href="Kai_Tsan compCV.pdf" target="_blank" download>Download PDF</a>
 	</section>
 
-<footer id="contact" class="footer">
-  <h2>Contact</h2>
-  <div class="footer-content">
-    <p>Email: your@email.com</p>
-    <p>Phone: Your Phone Number</p>
-    <ul class="social-links">
-      <li> <a href="https://www.linkedin.com/in/kai-tsan-64444b272/" target="_blank">
-          <img src="linkIcon.png" alt="LinkedIn Icon" class="social-icon">
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/KaiTsan0" target="_blank">
-          <img src="gitIcon.png" alt="GitHub Icon" class="social-icon">
-        </a>
-      </li>
-      <li>
-        <a href="https://your-itch-profile.itch.io/" target="_blank">
-          <img src="itchIcon.png" alt="Itch.io Icon" class="social-icon">
-        </a>
-      </li>
-    </ul>
-  </div>
-</footer>
+	<footer id="contact" class="footer">
+	  <h2>Contact</h2>
+	  <div class="footer-content">
+		<p>Email: your@email.com</p>
+		<ul class="social-links">
+		  <li> <a href="https://www.linkedin.com/in/kai-tsan-64444b272/" target="_blank">
+			  <img src="linkIcon.png" alt="LinkedIn Icon" class="social-icon">
+			</a>
+		  </li>
+		  <li>
+			<a href="https://github.com/KaiTsan0" target="_blank">
+			  <img src="gitIcon.png" alt="GitHub Icon" class="social-icon">
+			</a>
+		  </li>
+		  <li>
+			<a href="https://ezoak.itch.io/" target="_blank">
+			  <img src="itchIcon.png" alt="Itch.io Icon" class="social-icon">
+			</a>
+		  </li>
+		</ul>
+	  </div>
+	</footer>
 </html>
