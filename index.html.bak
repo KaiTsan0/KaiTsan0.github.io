@@ -35,7 +35,7 @@
     </header>
 
     <section id="about" class="section"> <h2>About Me</h2>
-      <p>As a recent graduate in Game Design and Development at the University of Greenwich, I'm passionate about crafting
+      <p>As a recent graduate in Game Design and Development at the University of Greenwich, I'm passionate about creating
 	  immersive and engaging game experiences. This portfolio showcases my diverse skillset,
 	  from AI and procedural generation to gameplay programming and 3D/2D art.
 	  <br>
@@ -123,6 +123,14 @@
 		  players to strategically push boxes into designated slots across a grid-like system.
 		  Demonstrating my knowledge in <u>gameplay programming</u>, I've designed Shroomoban
 		  to offer a captivating and engaging puzzle experience.</p>
+		</div>
+		
+		<div class="project-card">
+		  <h3>Shader Programming</h3>
+		  <a href="programmingPortfolio.html#SP">
+			<img src="pPort/THUMB/shaderT.jpg" alt="Project 3 Thumbnail">
+		  </a>
+		  <p>Shader programming, both <u>node-based shader editing</u> and creating Signed Distance Fields using<u>HLSL and GLSL code</u></p>
 		</div>
 	  </div>
 	</section>

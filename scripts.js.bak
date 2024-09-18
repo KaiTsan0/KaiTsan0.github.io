@@ -90,3 +90,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+const converter = new showdown.Converter();
+    const markdownText = `This is a **bold** text.`;
+    const html = converter.makeHtml(markdownText);
+    document.getElementById('markdown-content').innerHTML = html;

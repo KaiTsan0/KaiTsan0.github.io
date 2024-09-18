@@ -19,6 +19,7 @@
 		<li><a href="#FSM">Finite State Machine</a></li>
 		<li><a href="#PCG">Perlin City Generation</a></li>
 		<li><a href="#SH">Puzzle Game</a></li>
+		<li><a href="#SP">Shader Programming</a></li>
 		<li><a href="#contact">Contact</a></li>
 	  </ul>
 	</nav>
@@ -26,6 +27,8 @@
 	<div class="container">  <header class="header">
     <section id="about" class="section"> <h2>Programming Portfolio</h2> 
     </section>
+	
+	<!-- Polipus -->
 
     <section id="FSM" class="section">
 	  <h2>Finite State Machine NPC AI</h2>
@@ -93,6 +96,8 @@
 		</video>
 	</section>
 	
+	<!-- City Gen -->
+	
 	<section id="PCG" class="section">
 	<h2>Area Diversity City Procedural Generation</h2>
 	<p>Here I created a procedural generation tool that utilizes Perlin noise
@@ -146,6 +151,8 @@
 		
 	</section>
 	
+	<!-- Shroomoban -->
+	
 	<section id="SH" class="section">
 		<h2>Shroomoban</h2>
 		<p>Shroomoban is a 2D puzzle game inspired by Sokoban, a game where the objective
@@ -176,6 +183,85 @@
 		  </p>
 		<div class="image-thumbnails">
 			<img src="pPort/SH/copesnipt.png" alt="Movement Code Snip" class="thumbnail">
+		  </div>
+	</section>
+	
+	<!-- Shader Programming -->
+	
+	<section id="SP" class="section">
+	
+		<!-- SDFs -->
+		<h2>Shader Programming</h2>
+		<p>I coded 3D shapes using signed distance fields (SDFs) in HLSL and GLSL, including a sphere and a torus,
+		complete with realistic shadows and specular highlights.
+		</p>
+		  <br>
+		  <div class="image-thumbnails">
+			<img src="pPort/SP/sphere.jpg" alt="SDFs Sphere" class="thumbnail">
+			<img src="pPort/SP/noise.jpg" alt="SDFs Noise" class="thumbnail">
+			<img src="pPort/SP/torus.jpg" alt="SDFs Torus" class="thumbnail">
+			
+		  </div>
+		  <br>
+		  <br>
+		  <h2>SDF Union</h2>
+		  <p>I utilised the opSmoothUnion function to merge two SDF spheres, creating a visually appealing blended shape.
+		  To introduce dynamic movement, I utilized a sine wave function to translate the green sphere towards the blue sphere over time</p>
+		  <div class="videoplayer">
+			<video controls width="900" height="auto">
+			  <source src="pPort/SP/sfdvideo.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video>
+			<div class="image-thumbnails">
+				<img src="pPort/SP/union.jpg" alt="SDFs Union" class="thumbnail">
+				<img src="pPort/SP/code.jpg" alt="SDFs Union Code" class="thumbnail">
+			</div>
+			<br>
+			<br>
+		  
+		  <!-- Heat Particle -->
+		  <h3>Heat Distortion Niagara Particle</h3>
+		  <p>Using node based shader programming
+		  <br>Panning noise lerped with a sphere mask 
+			<br>Dynamic parameter to create refractions
+			<br>Heat distortion material set to Niagara fountain particle emitter
+		  </p>
+		  <div class="videoplayer">
+			<video controls width="900" height="auto">
+			  <source src="pPort/SP/heat.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video>
+			</div>
+		<div class="image-thumbnails">
+			<img src="pPort/SP/nodemask.jpg" alt="Material Preview" class="thumbnail">
+			<img src="pPort/SP/particle.jpg" alt="Particle Inspector" class="thumbnail">
+			<img src="pPort/SP/partnode.jpg" alt="Shader Node" class="thumbnail">
+		  </div>
+		  <br>
+		  <br>
+		  
+		  <!-- UV Moving Circle -->
+		  <h3>UV Moving Circle</h3>
+		  <p>Using node based shader programming
+		  <br>Circle is created by fracting distance from radius and
+		  applied to the location of the UV, animating it
+		  <br>Created a flickering bool, by checking a flipping mod
+		  <br>Changes Uvs with nested if statement if bool is true or false
+			<br>If true ==  2  appending 2 uv rows intersecting them with time sin.
+			<br>If false !== 2 uv collum moving up and down with time sin
+		  </p>
+		  <div class="videoplayer">
+			<video controls width="900" height="auto">
+			  <source src="pPort/SP/circles.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video>
+			</div>
+		<div class="image-thumbnails">
+			<img src="pPort/SP/circleGIF.gif" alt="UV Moving Circle Material" class="thumbnail">
+			<img src="pPort/SP/x.gif" alt="Material Preview" class="thumbnail">
+			<img src="pPort/SP/y.gif" alt="Material Preview" class="thumbnail">
+			<img src="pPort/SP/circleNode.jpg" alt="Shader Node" class="thumbnail">
+			<img src="pPort/SP/circleNode2.jpg" alt="Shader Node" class="thumbnail">
 		  </div>
 	</section>
 
