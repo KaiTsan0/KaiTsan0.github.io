@@ -57,7 +57,7 @@
 		<div class="project-card">
 		  <h3>Finite State Machine NPC AI</h3>
 		  <a href="programmingPortfolio.html#FSM">
-			<img src="thumbT.jpg" alt="Project 1 Thumbnail">
+			<img src="pPort/THUMB/poliT.jpg" alt="Project 1 Thumbnail">
 		  </a>
 		  <p>This project is my attempt at using finite state machines to allow NPCs to have
 		  different behavioural states to create a convincing free-thinking NPC,
@@ -162,9 +162,9 @@
 	</section>
 
 	<footer id="contact" class="footer">
-	  <h2>Contact</h2>
+	  <h2>Contact Me</h2>
 	  <div class="footer-content">
-		<p>Email: your@email.com</p>
+		<p>Email: kai.c.tsan@gmail.com</p>
 		<ul class="social-links">
 		  <li> <a href="https://www.linkedin.com/in/kai-tsan-64444b272/" target="_blank">
 			  <img src="linkIcon.png" alt="LinkedIn Icon" class="social-icon">

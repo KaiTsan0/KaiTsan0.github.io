@@ -72,7 +72,7 @@
 		bring it back to the colony, and replenish their energy. When there is an excess of food,
 		they breed, resulting in an additional Polipus.</p>
 		<div class="videoplayer">
-		<video controls width="900" height="auto">
+		<video controls width="100" height="auto">
 		  <source src="pPort/FSM/timelapse.mp4" type="video/mp4">
 		  Your browser does not support the video tag.
 		</video>
@@ -181,10 +181,9 @@
 
 
 	<footer id="contact" class="footer">
-	  <h2>Contact</h2>
+	  <h2>Contact Me</h2>
 	  <div class="footer-content">
-		<p>Email: your@email.com</p>
-		<p>Phone: Your Phone Number</p>
+		<p>Email: kai.c.tsan@gmail.com</p>
 		<ul class="social-links">
 		  <li> <a href="https://www.linkedin.com/in/kai-tsan-64444b272/" target="_blank">
 			  <img src="linkIcon.png" alt="LinkedIn Icon" class="social-icon">
