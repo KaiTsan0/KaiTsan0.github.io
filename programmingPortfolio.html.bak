@@ -112,7 +112,7 @@
 	  </div>
 	  <br>
 	  <div class="videoplayer">
-		<video>
+		<video controls width="auto" height="auto">
 		  <source src="pPort/PCG/timelapse.mp4" type="video/mp4">
 		  Your browser does not support the video tag.
 		</video>
@@ -159,7 +159,7 @@
 		  is to push boxes into the correct slots, across a grid-like movement system.</p>
 		  <br>
 		  <div class="videoplayer">
-			<video>
+			<video controls width="auto" height="auto">
 			  <source src="pPort/SH/GP.mp4" type="video/mp4">
 			  Your browser does not support the video tag.
 			</video>
@@ -208,7 +208,7 @@
 		  <p>I utilised the opSmoothUnion function to merge two SDF spheres, creating a visually appealing blended shape.
 		  To introduce dynamic movement, I utilized a sine wave function to translate the green sphere towards the blue sphere over time</p>
 		  <div class="videoplayer">
-			<video>
+			<video controls width="auto" height="auto">
 			  <source src="pPort/SP/sfdvideo.mp4" type="video/mp4">
 			  Your browser does not support the video tag.
 			</video>
@@ -227,7 +227,7 @@
 			<br>Heat distortion material set to Niagara fountain particle emitter
 		  </p>
 		  <div class="videoplayer">
-			<video>
+			<video controls width="auto" height="auto">
 			  <source src="pPort/SP/heat.mp4" type="video/mp4">
 			  Your browser does not support the video tag.
 			</video>
@@ -251,7 +251,7 @@
 			<br>If false !== 2 uv collum moving up and down with time sin
 		  </p>
 		  <div class="videoplayer">
-			<video>
+			<video controls width="auto" height="auto">
 			  <source src="pPort/SP/circles.mp4" type="video/mp4">
 			  Your browser does not support the video tag.
 			</video>
