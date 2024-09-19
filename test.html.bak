@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+</head>
+<body>
+<script> var submitted=false</script>
+<iframe name="hiddenConfirm" id="hiddenConfirm" style="display:none;"onload="if(submitted){window.location='submission.html';}"></iframe>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSeGq76tQrFSZk0e2bW1rFa9tj413IKJsaSNSdF_RtjPhMsWuA/formResponse">
+  <label for="entry.106708887">Enter your text:</label>
+  <input type="text" id="userInput" name="entry.106708887" placeholder="sauce">
+  <button type="submit">Submit</button>
+</form>
+  </body>
+</html>
