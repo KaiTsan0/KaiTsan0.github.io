@@ -30,9 +30,14 @@
 	  </ul>
 	</nav>
 	
-  <div class="container">  <header class="header">  <h1>Kai Tsan</h1>
-      <p>Game Developer</p>
+	<!-- Header -->
+	
+  <div class="container">  <header class="header">  
+	  <h1><br>Kai Tsan</h1>
+	  <p>Game Developer</p>
     </header>
+	
+	<!-- about -->
 
     <section id="about" class="section"> <h2>About Me</h2>
       <p>As a recent graduate in Game Design and Development at the University of Greenwich, I'm passionate about creating
@@ -47,6 +52,9 @@
 	  My portfolio demonstrates my proficiency in modeling, texturing, and concept art,
 	  showcasing the entire creative process from initial ideas to final products.
 	  </p>
+	  
+	  <!-- Skills -->
+	  
 	  <h3>Skill set</h3>
 		<ul class="skills-icon">
 		  <li>
@@ -149,6 +157,9 @@
     <section id="art-portfolio" class="section">  
 		<h2>Art Portfolio</h2>
 		<div class="project-cards">
+		
+			<!-- VR game -->
+		
 			<div class="project-card">
 			  <h3>Brass Bolt Caverns Mining VR Game</h3>
 			  <a href="artPortfolio.html#BBC">
@@ -161,6 +172,8 @@
 			  interaction.
 			  </p>
 			</div>
+			
+			<!-- Pirate Radio -->
 		
 			<div class="project-card">
 			  <h3>Pirate Radio: Stealth Raves</h3>
@@ -173,6 +186,8 @@
 			  this era.
 			  </p>
 			</div>
+			
+			<!-- KITTYUHHH -->
 		
 			<div class="project-card">
 			  <h3>Kitty Table Setup</h3>
@@ -191,6 +206,9 @@
     <section id="game-jam-portfolio" class="section">
 		<h2>Game Jam Portfolio</h2>
 		<div class="project-cards">
+		
+			<!-- Underwater -->
+		
 			<div class="project-card">
 			  <h3>Underwater Cleanup</h3>
 			  <a href="gameJams.html#UC">
@@ -198,6 +216,8 @@
 			  </a>
 			  <p>Group Internal game jam entry for univeristy</p>
 			</div>
+			
+			<!-- NRG -->
 		
 			<div class="project-card">
 			  <h3>Energy Overflow</h3>
@@ -207,6 +227,8 @@
 			  <p>Short Speedrunning 2D platformer
 			  Submitted Game Jam for SpeedJam #4</p>
 			</div>
+			
+			<!-- Pizzaria -->
 		
 			<div class="project-card">
 			  <h3>Joe's Memearia</h3>
