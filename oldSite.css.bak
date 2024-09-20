@@ -1,0 +1,94 @@
+
+
+body {
+	font-family: serif;
+	font-size: 32px;
+	color: red;
+    margin: 10px 20px;
+    padding: 0;
+	padding-top: 40px;
+	background-image: url("pPort/old/06.jpg");
+    background-size: 5%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+	z-index: -2;
+	/* text margin on left and right of the text */
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 100%; /* Adjust height as needed */
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px; /* Optional: Add rounded corners */
+  text-align: center;
+  display: flex; /* Use flexbox for vertical layout (optional) */
+  flex-direction: column; /* Stack elements vertically (optional) */
+  z-index: 0;
+  padding-top: 175px;
+}
+
+.container img {
+  display: block;
+  padding_right: 20px;
+  width: 128px; 
+}
+
+.container img#bar { /* with the id="bar" */
+  display: block;
+  margin-bottom: 20px;
+  width: 100%; 
+}
+
+
+.form-container {
+  /* Adjust styles as needed */
+  background-image: url("pPort/old/Blue_Grid.png");
+  background-size: 80px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-image: url("pPort/old/cubeTile.png");
+  background-repeat: repeat;
+  background-size: 192px; /* Adjust height to fit the navigation bar */
+  padding: 10px;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  margin: 10;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* Adjust spacing as needed */
+}
+
+nav li {
+  margin: 0 10px; /* Adjust spacing between items */
+  background-image: url("pPort/old/3D_Green.png");
+  background-repeat: repeat;
+  background-size: 10%; /* Adjust values as needed */
+  padding: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* Or your preferred color */
+}
+
+nav img {
+  display: block;
+  margin: 0 auto;
+  height: 50px; /* Stretch image to full width */
+}
