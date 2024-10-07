@@ -17,7 +17,7 @@
 	  <ul>
 		<li><a href="index.html">Back</a></li>
 		<li><a href="#CA">Character Art</a></li>
-		<li><a href="#SubP">Character Art</a></li>
+		<li><a href="#SubP">Substance Painter</a></li>
 		<li><a href="#AN">Animations</a></li>
 		<li><a href="#BBC">VR Game</a></li>
 		<li><a href="#PR">Stealth Game</a></li>
@@ -80,8 +80,8 @@
 	  <br>
 	  <br>
 	  <div class="image-thumbnails">
-		<img src="pPort/SubP/highPolyNormalSculpt.png" alt="Tree stump blockout" class="thumbnail">
-		<img src="pPort/SubP/CapturenormalMapBakingonLowpoly.png" alt="Sculpt for the shape" class="thumbnail">
+		<img src="pPort/SubP/highPolyNormalSculpt.png" alt="Sculting high level details for normal map" class="thumbnail">
+		<img src="pPort/SubP/CapturenormalMapBakingonLowpoly.png" alt="Baked normal map onto low poly model" class="thumbnail">
 	  </div>
 	  
 	  <p>Sculpting further detail on a seperate model, once I was happy with the result 
@@ -92,14 +92,21 @@
 	  
 	  
 	  <div class="image-thumbnails">
-		<img src="pPort/SubP/generators.png" alt="Tree stump blockout" class="thumbnail">
-		<img src="pPort/SubP/inspect.png" alt="Sculpt for the shape" class="thumbnail">
-		<img src="pPort/SubP/CapturebeforeHandpainttouches.png" alt="Sculpt for the shape" class="thumbnail">
+		<img src="pPort/SubP/generators.png" alt="Before and after hand painted touches" class="thumbnail">
+		<img src="pPort/SubP/inspect.png" alt="Paint Layers" class="thumbnail">
+		<img src="pPort/SubP/CapturebeforeHandpainttouches.png" alt="Final with Image Texture" class="thumbnail">
 	  </div>
 	  <p>Importing the model into Substance Painter, I created a base material for the colour, metal and rough.
 	  Then added additonal layers to generate some highlights and baked lighting for the normal map.
 	  <br>After I was happy with the generators, I went in the paint tool to create some human decisions 
 	  and to add further hue changes and depth where I saw fit.</p>
+	  <br>
+	  <br>
+	  
+	  <div class="image-thumbnails">
+		<img src="pPort/SubP/unityImport.PNG" alt="Imported to Unity Game Engine" class="thumbnail">
+	  </div>
+	  <p>Finally, importing the low poly model into Unity with a material containing the images exported from Substance Painter applied.</p>
 	  <br>
 	  <br>
 	  
