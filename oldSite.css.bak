@@ -2,9 +2,9 @@
 
 body {
 	font-family: serif;
-	font-size: 32px;
+	font-size: 2vw;
 	color: red;
-    margin: 10px 20px;
+    margin: 0px 20px;
     padding: 0;
 	padding-top: 40px;
 	background-image: url("pPort/old/06.jpg");
@@ -34,7 +34,7 @@ body {
 .container img {
   display: block;
   padding_right: 20px;
-  width: 128px; 
+  width: 100%; 
 }
 
 .container img#bar { /* with the id="bar" */

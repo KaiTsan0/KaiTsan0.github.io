@@ -2,7 +2,7 @@
 
 body {
 	font-family: serif;
-	font-size: 32px;
+	font-size: 2vw;
 	color: red;
     margin: 0px 20px;
     padding: 0;
@@ -34,7 +34,7 @@ body {
 .container img {
   display: block;
   padding_right: 20px;
-  width: 128px; 
+  width: 20%; 
 }
 
 .container img#bar { /* with the id="bar" */

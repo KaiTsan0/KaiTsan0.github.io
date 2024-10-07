@@ -43,7 +43,7 @@
 	  immersive and engaging game experiences. This portfolio showcases my diverse skillset,
 	  from AI and procedural generation to gameplay programming and 3D/2D art.
 	  <br>
-	  <br>throughout my academic journey, I've developed my ability to tackle complex
+	  <br>Throughout my academic journey, I've developed my ability to tackle complex
 	  challenges head-on. Each project highlights my unique approach to problem-solving
 	  and my dedication to creating innovative game mechanics.
 	  <br>
@@ -90,6 +90,12 @@
 			<a href="#">
 			  <img src="krakenIcon.png" alt="Kraken Icon" class="skills-icon">
 			  <span class="skill-text">Git Kraken</span>
+			</a>
+		  </li>
+		  <li>
+			<a href="#">
+			  <img src="subIcon.png" alt="Adobe Substance Painter" class="skills-icon">
+			  <span class="skill-text">Substance<br>Painter</span>
 			</a>
 		  </li>
 		</ul>
@@ -186,9 +192,7 @@
 			  <a href="artPortfolio.html#BBC">
 				<img src="pPort/THUMB/vrT.jpg" alt="Project 2 Thumbnail">
 			  </a>
-			  <p>As a member of a small development team, I was responsible for crafting
-			  the entire <u>3D environment</u> for the project. This included designing and
-			  implementing the hub area, as well as all buildings and props within it.
+			  <p>Small development team, I was responsible <u>3D environment</u> for the project. 
 			  I incorporated <u>affordances</u> into the design process to ensure intuitive player
 			  interaction.
 			  </p>

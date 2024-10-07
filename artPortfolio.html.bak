@@ -61,6 +61,49 @@
 	  <br>
 	</section>
 	
+	<!-- Substance Paint -->
+	
+	<section id="SubP" class="section">
+	  <h2>Substance Painter</h2>
+	  <p>The process of the tree stump from Blender to Substance Painter.</p>
+	  <br>
+	  <div class="image-thumbnails">
+		<img src="pPort/SubP/stumpBlockout.png" alt="Tree stump blockout" class="thumbnail">
+		<img src="pPort/SubP/stumpSculpt.png" alt="Sculpt for the shape" class="thumbnail">
+		<img src="pPort/SubP/stumpUV.png" alt="UV Unwrap and package" class="thumbnail">
+	  </div>
+
+	  <p>Creating the low and high poly tree stump model. Starting with the blockout, 
+	  I remeshed the model to increase the face count so I could sculpt the shape. 
+	  I faced some challeneges unwrapping the UV but overcame them by marking seams to help with the unpacking process.</p>
+	  <br>
+	  <br>
+	  <div class="image-thumbnails">
+		<img src="pPort/SubP/highPolyNormalSculpt.png" alt="Tree stump blockout" class="thumbnail">
+		<img src="pPort/SubP/CapturenormalMapBakingonLowpoly.png" alt="Sculpt for the shape" class="thumbnail">
+	  </div>
+	  
+	  <p>Sculpting further detail on a seperate model, once I was happy with the result 
+	  the details were baked to a normal map for the low poly version of the model. I did this to help add depth and detail
+	  to the lower poly model and to help create a guide for Substance Painter</p>
+	  <br>
+	  <br>
+	  
+	  
+	  <div class="image-thumbnails">
+		<img src="pPort/SubP/generators.png" alt="Tree stump blockout" class="thumbnail">
+		<img src="pPort/SubP/inspect.png" alt="Sculpt for the shape" class="thumbnail">
+		<img src="pPort/SubP/CapturebeforeHandpainttouches.png" alt="Sculpt for the shape" class="thumbnail">
+	  </div>
+	  <p>Importing the model into Substance Painter, I created a base material for the colour, metal and rough.
+	  Then added additonal layers to generate some highlights and baked lighting for the normal map.
+	  <br>After I was happy with the generators, I went in the paint tool to create some human decisions 
+	  and to add further hue changes and depth where I saw fit.</p>
+	  <br>
+	  <br>
+	  
+	</section>
+	
 	<!-- Animation / Rigging -->
 	
 	<section id="AN" class="section">
@@ -99,7 +142,7 @@
 		  Your browser does not support the video tag.
 		</video>
 	  </div>
-	  <p>I used Shapekeys here to alter the facial expressions on the tree, .</p>
+	  <p>I used Shapekeys here to alter the facial expressions on the tree.</p>
 	  <br>
 	  <br>
 	</section>
