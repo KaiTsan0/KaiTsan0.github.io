@@ -204,8 +204,8 @@ li.dropdown {
 }
 
 .image-thumbnails img {
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 150px;
   cursor: pointer;
   margin: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
