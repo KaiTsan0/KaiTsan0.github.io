@@ -17,6 +17,7 @@
 	  <ul>
 		<li><a href="index.html">Back</a></li>
 		<li><a href="#CA">Character Art</a></li>
+		<li><a href="#SubP">Character Art</a></li>
 		<li><a href="#AN">Animations</a></li>
 		<li><a href="#BBC">VR Game</a></li>
 		<li><a href="#PR">Stealth Game</a></li>
@@ -84,8 +85,8 @@
 	  </div>
 	  
 	  <p>Sculpting further detail on a seperate model, once I was happy with the result 
-	  the details were baked to a normal map for the low poly version of the model. I did this to help add depth and detail
-	  to the lower poly model and to help create a guide for Substance Painter</p>
+	  the details were baked to a normal map for the low poly version of the model. This was done to help add depth and detail
+	  to the lower poly model and to help create a guide for Substance Painter during the baked lighting step.</p>
 	  <br>
 	  <br>
 	  

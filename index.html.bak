@@ -166,11 +166,22 @@
 			<!-- Character Art -->
 		
 			<div class="project-card">
-			  <h3>Charater Art</h3>
+			  <h3>Character Art</h3>
 			  <a href="artPortfolio.html#CA">
 				<img src="pPort/CA/polipusRetop.png" alt="Project 0 Thumbnail">
 			  </a>
 			  <p>A showcase of some  <u>2D Concepts to 3D Models</u> for projects I've worked on.
+			  </p>
+			</div>
+			
+			<!-- Substance Painter -->
+		
+			<div class="project-card">
+			  <h3>Character Art</h3>
+			  <a href="artPortfolio.html#SubP">
+				<img src="pPort/Sub/render.png" alt="Project 0 Thumbnail">
+			  </a>
+			  <p>Substance Painter procress, <u>Sculpting Model</u> to <u>Texturing</u>.
 			  </p>
 			</div>
 			
