@@ -1,8 +1,7 @@
 // Countdown function
 function countdown() {
   try {
-    // Get Christmas Day and current date
-    const christmasDay = new Date("December 26, 2024");
+    const christmasDay = new Date("December 26, 2024 16:05:00")
     const now = new Date();
 
     // Calculate time difference

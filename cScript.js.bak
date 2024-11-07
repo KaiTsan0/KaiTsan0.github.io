@@ -15,7 +15,7 @@ function countdown() {
     const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
     // Format countdown text
-    const countdownText = `Time until I arrive: ${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
+    const countdownText = `Time until the flight: ${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
 
     // Update countdown element
     document.getElementById("countdown").innerHTML = countdownText;
