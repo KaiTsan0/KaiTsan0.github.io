@@ -1,31 +1,37 @@
-// Countdown function
-function countdown() {
-  try {
-    const christmasDay = new Date("December 26, 2024 19:00:00 PST")
-    const now = new Date();
+// Select the title element
+const title = document.getElementById('title');
 
-    // Calculate time difference
-    const timeDiff = christmasDay - now;
+// Animate the title with GSAP
+gsap.to(title, { duration: 2, scale: 1.5, color: 'red', ease: 'bounce' });
 
-    // Extract days, hours, minutes, and seconds
-    const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+// Create a new Phaser game
+const config = {
+  type: Phaser.AUTO,
+  width: 800,
+  height: 600,
+  scene: {
+    preload: preload,
+    create: create,
+    update: update,
+  },
+};
 
-    // Format countdown text
-    const countdownText = `Time until the flight: ${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
+const game = new Phaser.Game(config);
 
-    // Update countdown element
-    document.getElementById("countdown").innerHTML = countdownText;
-  } catch (error) {
-    console.error("Error calculating countdown:", error);
-    // Handle error gracefully (e.g., display an error message)
-  }
+function preload() {
+  // Load assets (e.g., images, sounds)
+  this.load.image('heart', 'https://content.mycutegraphics.com/graphics/hearts/red-heart.png'); // Example heart image
 }
 
-// Update countdown every second
-setInterval(countdown, 1000);
+function create() {
+  // Add a clickable heart
+  const heart = this.add.image(400, 300, 'heart').setInteractive();
 
-// Initial countdown update
-countdown();
+  heart.on('pointerdown', () => {
+    alert("You've clicked the heart! Will you be my Valentine?");
+  });
+}
+
+function update() {
+  // Update game logic here
+}

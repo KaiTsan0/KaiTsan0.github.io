@@ -1,15 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Countdown to Christmas</title>
-  <link rel="stylesheet" href="cStyles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div id="countdown"></div>
-
+  <h1>Will You Be My Valentine?</h1>
+  
+  <!-- Embed the Unity game -->
+  <div id="game-container">
+    <iframe 
+      src="unity-game.html" 
+      width="800" 
+      height="600" 
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
   </div>
-  <div class="background-overlay"></div>
+
+  <p>Play the game to find out!</p>
+
   <script src="cScript.js"></script>
 </body>
 </html>

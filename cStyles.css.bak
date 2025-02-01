@@ -35,6 +35,6 @@ body {
 
 #countdown {
   font-weight: bold;
-  font-size: 1vw;
+  font-size: 5vw;
   margin: 10px;
 }
