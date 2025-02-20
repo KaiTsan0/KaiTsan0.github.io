@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 // Select the title element
 const title = document.getElementById('title');
+=======
+// Countdown function
+function countdown() {
+  try {
+    // Get Christmas Day and current date
+    const christmasDay = new Date("December 26, 2024");
+    const now = new Date();
+>>>>>>> parent of ef4c843 (timezone)
 
 // Animate the title with GSAP
 gsap.to(title, { duration: 2, scale: 1.5, color: 'red', ease: 'bounce' });
